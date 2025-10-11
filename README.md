@@ -8,7 +8,7 @@
 ---
 
 ### 🔗 Quick Navigation  
-[Overview](#-overview) • [Features](#-features) • [Tech Stack](#-tech-stack) • [Setup](#-getting-started) • [Demo](#-demo-video) • [Screenshots](#-screenshots) • [Enhancements](#-planned-enhancements) • [Developer](#-developer)
+[Overview](#overview) • [Features](#features) • [Tech Stack](#tech-stack) • [Setup](#getting-started) • [Demo](#demo-video) • [Screenshots](#screenshots) • [Enhancements](#planned-enhancements) • [Developer](#developer)
 
 ---
 
@@ -16,6 +16,7 @@ A professional PowerShell-based application for monitoring **system health**, ge
 
 ---
 
+<a name="overview"></a>
 ## 🧠 Overview  
 
 The **System Health Monitor** automates system diagnostics and reporting.  
@@ -25,6 +26,7 @@ This project demonstrates PowerShell automation, GUI development, and email inte
 
 ---
 
+<a name="features"></a>
 ## ✨ Features  
 
 ✅ Parallel health checks on multiple remote or local computers  
@@ -36,6 +38,7 @@ This project demonstrates PowerShell automation, GUI development, and email inte
 
 ---
 
+<a name="tech-stack"></a>
 ## 💻 Tech Stack  
 
 | Layer | Technology |
@@ -48,6 +51,7 @@ This project demonstrates PowerShell automation, GUI development, and email inte
 
 ---
 
+<a name="getting-started"></a>
 ## ⚙️ Getting Started  
 
 ### 🟦 1️⃣ Clone the Repository  
@@ -101,6 +105,7 @@ SystemHealthMonitor.exe
 
 ---
 
+<a name="demo-video"></a>
 ## 🎥 Demo Video  
 
 📺 Watch the live walkthrough:  
@@ -110,6 +115,7 @@ SystemHealthMonitor.exe
 
 ---
 
+<a name="screenshots"></a>
 ## 🖼️ Screenshots  
 
 | Folder Structure | GUI Launcher | Email Prompt |
@@ -141,6 +147,7 @@ SystemHealthMonitor.exe
 
 ---
 
+<a name="planned-enhancements"></a>
 ## 🧩 Planned Enhancements  
 
 - Add **CPU trend charts** (HTML graph visualization)  
@@ -150,6 +157,7 @@ SystemHealthMonitor.exe
 
 ---
 
+<a name="developer"></a>
 ## 👨‍💻 Developer  
 
 **Moustafa Obari**  
