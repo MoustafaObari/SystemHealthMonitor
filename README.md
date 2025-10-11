@@ -1,5 +1,7 @@
 # 🌸 System Health Monitor  
 
+_A lightweight PowerShell-based monitoring utility for automating diagnostics, generating HTML reports, and delivering real-time insights with email alerts._
+
 [![PowerShell](https://img.shields.io/badge/PowerShell-0078D4?logo=powershell&logoColor=white)]() 
 [![HTML Report](https://img.shields.io/badge/HTML%20Report-FF6F61?logo=html5&logoColor=white)]()
 [![GUI App](https://img.shields.io/badge/GUI-Windows%20Forms-blue)]()
@@ -168,4 +170,6 @@ Software Engineer | Cloud & Automation Enthusiast
 
 ---
 
-> 💡 *“Transforming IT monitoring into seamless automation — bringing clarity, insight, and precision with every report.”*
+> 💡 *“Transforming IT monitoring into seamless automation — delivering clarity, insight, and precision with every report.”*
+
+[⬆ Back to Top](#quick-navigation)
