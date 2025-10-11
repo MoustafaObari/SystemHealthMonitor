@@ -5,6 +5,13 @@
 [![GUI App](https://img.shields.io/badge/GUI-Windows%20Forms-blue)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
+---
+
+### 🔗 Quick Navigation  
+[Overview](#-overview) • [Features](#-features) • [Tech Stack](#-tech-stack) • [Setup](#-getting-started) • [Demo](#-demo-video) • [Screenshots](#-screenshots) • [Enhancements](#-planned-enhancements) • [Developer](#-developer)
+
+---
+
 A professional PowerShell-based application for monitoring **system health**, generating **HTML reports**, and automatically emailing results — all through a user-friendly **Windows GUI**.
 
 ---
@@ -52,7 +59,11 @@ cd SystemHealthMonitor
 ---
 
 ### 🟦 2️⃣ Configure Email Settings  
-Edit the `config.json` file with your SMTP details:  
+<details>
+<summary>📩 Click to view configuration details</summary>
+
+Edit the `config.json` file with your SMTP details:
+
 ```json
 {
   "smtpServer": "smtp.gmail.com",
@@ -62,7 +73,7 @@ Edit the `config.json` file with your SMTP details:
   "from": "@gmail.com"
 }
 ```
-💡 *Leave it blank for demo/testing — it’s safe to upload empty.*
+</details>
 
 ---
 
@@ -97,7 +108,6 @@ SystemHealthMonitor.exe
 
 *(or view `System Health Demo.mp4` inside the repository)*  
 
-
 ---
 
 ## 🖼️ Screenshots  
@@ -114,7 +124,6 @@ SystemHealthMonitor.exe
 |----------------------------------|--------------------------------|
 | ![Screenshot6](Screenshots/6.png) | ![Screenshot8](Screenshots/8.png) |
 
-
 ---
 
 ## 📘 Screenshot Descriptions  
@@ -128,6 +137,7 @@ SystemHealthMonitor.exe
 | 5 | Logs folder | Shows generated HTML reports |
 | 6 | Technical HTML report | Opened in browser |
 | 7 | User-Friendly HTML report | Opened in browser |
+| 8 | HTML Report Summary | Email confirmation and report attachments |
 
 ---
 
@@ -143,12 +153,11 @@ SystemHealthMonitor.exe
 ## 👨‍💻 Developer  
 
 **Moustafa Obari**  
-Software Engineer • Cloud & Automation Enthusiast  
+Software Engineer | Cloud & Automation Enthusiast  
 
 🔗 [GitHub](https://github.com/MoustafaObari)  
 🔗 [LinkedIn](https://www.linkedin.com/in/moustafaobari)
 
 ---
 
-> *“Simplifying IT monitoring through automation, clarity, and intelligent reporting.”*
-
+> 💡 *“Transforming IT monitoring into seamless automation — bringing clarity, insight, and precision with every report.”*
