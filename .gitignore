@@ -1,0 +1,15 @@
+# Ignore temporary or private files
+*.log
+*.tmp
+
+# Ignore generated reports
+logs/*.html
+logs/*.htm
+
+# Ignore compiled executables
+*.exe
+*.zip
+
+# Ignore system-specific files
+Thumbs.db
+Desktop.ini
