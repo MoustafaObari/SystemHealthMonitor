@@ -93,24 +93,27 @@ SystemHealthMonitor.exe
 ## 🎥 Demo Video  
 
 📺 Watch the live walkthrough:  
-🎬 **System Health Monitor Demo**  
+🎬 [**System Health Monitor Demo**](https://github.com/MoustafaObari/SystemHealthMonitor/blob/main/System%20Health%20Demo.mp4)  
+
 *(or view `System Health Demo.mp4` inside the repository)*  
+
 
 ---
 
 ## 🖼️ Screenshots  
 
-| GUI Launcher | Email Prompt | Running Check |
-|---------------|--------------|----------------|
+| Folder Structure | GUI Launcher | Email Prompt |
+|------------------|--------------|---------------|
 | ![Screenshot1](Screenshots/1.png) | ![Screenshot2](Screenshots/2.png) | ![Screenshot3](Screenshots/3.png) |
 
-| Generated HTML Reports | Logs Folder | User-Friendly Report |
-|--------------------------|--------------|-----------------------|
+| Running Check | Logs Folder | User-Friendly Report |
+|----------------|--------------|-----------------------|
 | ![Screenshot4](Screenshots/4.png) | ![Screenshot5](Screenshots/5.png) | ![Screenshot7](Screenshots/7.png) |
 
-| Technical Report (Detailed View) |
-|----------------------------------|
-| ![Screenshot6](Screenshots/6.png) |
+| Technical Report (Detailed View) | Generated HTML Reports Summary |
+|----------------------------------|--------------------------------|
+| ![Screenshot6](Screenshots/6.png) | ![Screenshot8](Screenshots/8.png) |
+
 
 ---
 
@@ -148,3 +151,4 @@ Software Engineer • Cloud & Automation Enthusiast
 ---
 
 > *“Simplifying IT monitoring through automation, clarity, and intelligent reporting.”*
+
