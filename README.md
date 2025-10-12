@@ -33,6 +33,11 @@
   <img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge">
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Version-1.0.0-brightgreen?style=for-the-badge" alt="Version">
+  <img src="https://img.shields.io/github/issues/MoustafaObari/SystemHealthMonitor?color=0078D4&style=for-the-badge" alt="Issues">
+</p>
+
 ---
 
 ## 🧠 Overview  
@@ -90,19 +95,19 @@ cd SystemHealthMonitor
 <details>
 <summary>📩 Click to expand email configuration</summary>
 
-Edit the **config.json** file with your SMTP credentials:
+Edit the **config.json** file with your SMTP credentials:  
 
+<pre>
 {
-"smtpServer": "smtp.gmail.com",
-"smtpPort": 587,
-"smtpUser": "example@gmail.com
-",
-"smtpPass": "yourpassword",
-"from": "example@gmail.com
-"
+  "smtpServer": "smtp.gmail.com",
+  "smtpPort": 587,
+  "smtpUser": "example@gmail.com",
+  "smtpPass": "yourpassword",
+  "from": "example@gmail.com"
 }
+</pre>
 
-💡 Tip: For Gmail users, enable “App Passwords” for secure SMTP access.
+💡 **Tip:** For Gmail users, enable “App Passwords” for secure SMTP access.
 
 </details>
 
@@ -110,7 +115,7 @@ Edit the **config.json** file with your SMTP credentials:
 
 ### 🟦 3️⃣ Add Target Computers  
 
-List endpoints to monitor in **computers.txt**:
+List endpoints to monitor in **computers.txt**:  
 
 localhost  
 Server01  
