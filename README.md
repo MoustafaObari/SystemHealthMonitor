@@ -1,124 +1,140 @@
 <a id="top"></a>
-# 🌸 System Health Monitor  
 
-_A lightweight PowerShell-based monitoring utility for automating diagnostics, generating HTML reports, and delivering real-time insights with email alerts._
+<!-- Banner -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0078D4,100:FF6F61&height=200&section=header&text=System%20Health%20Monitor%20💻&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=PowerShell%20automation%20for%20system%20diagnostics%2C%20HTML%20reports%2C%20and%20email%20alerts.&descAlignY=55&descAlign=50" alt="System Health Monitor Banner"/>
+</p>
 
-[![PowerShell](https://img.shields.io/badge/PowerShell-0078D4?logo=powershell&logoColor=white)]() 
-[![HTML Report](https://img.shields.io/badge/HTML%20Report-FF6F61?logo=html5&logoColor=white)]()
-[![GUI App](https://img.shields.io/badge/GUI-Windows%20Forms-blue)]()
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+<p align="center">
+  <a href="https://github.com/MoustafaObari/SystemHealthMonitor">
+    <img src="https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="View on GitHub">
+  </a>
+</p>
+
+<h4 align="center">Turning IT health checks into proactive automation — with PowerShell precision 🧩</h4>
+
+<p align="center">
+  <a href="#overview">Overview</a> • 
+  <a href="#features">Features</a> • 
+  <a href="#tech-stack">Tech Stack</a> • 
+  <a href="#getting-started">Setup</a> • 
+  <a href="#demo-video">Demo</a> • 
+  <a href="#screenshots">Screenshots</a> • 
+  <a href="#planned-enhancements">Enhancements</a> • 
+  <a href="#developer">Developer</a>
+</p>
 
 ---
 
-### 🔗 Quick Navigation  
-[Overview](#overview) • [Features](#features) • [Tech Stack](#tech-stack) • [Setup](#getting-started) • [Demo](#demo-video) • [Screenshots](#screenshots) • [Enhancements](#planned-enhancements) • [Developer](#developer)
+<p align="center">
+  <img src="https://img.shields.io/badge/PowerShell-0078D4?style=for-the-badge&logo=powershell&logoColor=white" title="PowerShell Automation">
+  <img src="https://img.shields.io/badge/HTML%20Report-FF6F61?style=for-the-badge&logo=html5&logoColor=white" title="HTML Report Generator">
+  <img src="https://img.shields.io/badge/GUI-Windows%20Forms-blue?style=for-the-badge&logo=windows&logoColor=white" title="Windows Forms GUI">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" title="MIT License"></a>
+</p>
 
 ---
 
-A professional PowerShell-based application for monitoring **system health**, generating **HTML reports**, and automatically emailing results — all through a user-friendly **Windows GUI**.
-
----
-
-<a name="overview"></a>
 ## 🧠 Overview  
 
-The **System Health Monitor** automates system diagnostics and reporting.  
-It checks CPU usage, memory, disk space, uptime, Windows Update status, and event logs — then produces detailed technical and user-friendly HTML reports.  
+**System Health Monitor** is a professional PowerShell-based automation toolkit that performs deep system diagnostics and generates clean HTML reports — perfect for IT Support, MSPs, and DevOps professionals.
 
-This project demonstrates PowerShell automation, GUI development, and email integration — ideal for system administrators, IT support, and DevOps professionals.
+It automatically collects and analyzes:
+- CPU utilization  
+- Memory usage  
+- Disk space and SMART health  
+- Windows Update status  
+- System uptime  
+- Critical event logs  
+
+Reports are saved locally and can be securely sent via email — transforming traditional manual checks into **automated insights**.
 
 ---
 
-<a name="features"></a>
 ## ✨ Features  
 
-✅ Parallel health checks on multiple remote or local computers  
-✅ Interactive **Windows GUI** (built with .NET Forms)  
-✅ Dual HTML report generation — *Technical* & *User Friendly*  
-✅ Automated **email delivery** via SMTP  
-✅ Log tracking with timestamps for each run  
-✅ Portable `.exe` build option (for demo or deployment)  
+✅ Parallel health checks for multiple endpoints (local & remote via WinRM)  
+✅ Interactive **Windows GUI** built with .NET Forms  
+✅ Dual **HTML report generation** — Technical (admins) + User-friendly (summary)  
+✅ Automated **SMTP email delivery** with attachment logs  
+✅ Timestamped **logging and archiving** for every run  
+✅ Portable `.exe` packaging for quick use without scripts  
 
 ---
 
-<a name="tech-stack"></a>
 ## 💻 Tech Stack  
 
 | Layer | Technology |
 |-------|-------------|
-| Scripting | PowerShell 5+ |
-| Interface | Windows Forms (.NET) |
-| Reporting | HTML / CSS |
-| Communication | SMTP (Email Delivery) |
-| Logging | File-based, Auto-timestamped |
+| **Scripting & Automation** | PowerShell 5+ |
+| **Interface** | Windows Forms (.NET) |
+| **Reporting** | HTML / CSS |
+| **Communication** | SMTP (Email Delivery) |
+| **Logging** | File-based (timestamped runs) |
+| **Packaging** | PS2EXE for portable deployment |
 
 ---
 
-<a name="getting-started"></a>
 ## ⚙️ Getting Started  
 
 ### 🟦 1️⃣ Clone the Repository  
-```bash
-git clone https://github.com/MoustafaObari/SystemHealthMonitor.git
-cd SystemHealthMonitor
-```
+git clone https://github.com/MoustafaObari/SystemHealthMonitor.git  
+cd SystemHealthMonitor  
 
 ---
 
 ### 🟦 2️⃣ Configure Email Settings  
+
 <details>
-<summary>📩 Click to view configuration details</summary>
+<summary>📩 Click to expand email configuration</summary>
 
-Edit the `config.json` file with your SMTP details:
+Edit the **config.json** file with your SMTP credentials:
 
-```json
 {
   "smtpServer": "smtp.gmail.com",
   "smtpPort": 587,
-  "smtpUser": "@gmail.com",
-  "smtpPass": "",
-  "from": "@gmail.com"
+  "smtpUser": "example@gmail.com",
+  "smtpPass": "yourpassword",
+  "from": "example@gmail.com"
 }
-```
+
+💡 Tip: For Gmail users, enable “App Passwords” for secure SMTP access.
+
 </details>
 
 ---
 
 ### 🟦 3️⃣ Add Target Computers  
-List each machine (or `localhost`) in `computers.txt`:  
-```bash
-localhost
-Server01
-Workstation05
-```
+
+List endpoints to monitor in **computers.txt**:
+
+localhost  
+Server01  
+Workstation05  
 
 ---
 
-### 🟦 4️⃣ Run the App  
+### 🟦 4️⃣ Run the Application  
 
-Execute the GUI launcher:  
-```bash
-.\Start-HealthMonitorGUI.ps1
-```
+**Via PowerShell:**  
+.\Start-HealthMonitorGUI.ps1  
 
-Or use the packaged `.exe` version:  
-```bash
-SystemHealthMonitor.exe
-```
+**Or run the packaged EXE:**  
+SystemHealthMonitor.exe  
 
 ---
 
-<a name="demo-video"></a>
+<a id="demo-video"></a>
 ## 🎥 Demo Video  
 
-📺 Watch the live walkthrough:  
+📺 Watch a quick walkthrough:  
 🎬 [**System Health Monitor Demo**](https://github.com/MoustafaObari/SystemHealthMonitor/blob/main/System%20Health%20Demo.mp4)  
 
-*(or view `System Health Demo.mp4` inside the repository)*  
+*(or open `System Health Demo.mp4` inside this repository)*
 
 ---
 
-<a name="screenshots"></a>
+<a id="screenshots"></a>
 ## 🖼️ Screenshots  
 
 | Folder Structure | GUI Launcher | Email Prompt |
@@ -139,39 +155,48 @@ SystemHealthMonitor.exe
 
 | # | Screenshot | Description |
 |---|-------------|-------------|
-| 1 | Folder structure | Full project files view |
-| 2 | GUI window | Main interface with computer name entered |
-| 3 | Email dialog | Prompt for recipient email |
-| 4 | Script execution | PowerShell window showing jobs running |
-| 5 | Logs folder | Shows generated HTML reports |
-| 6 | Technical HTML report | Opened in browser |
-| 7 | User-Friendly HTML report | Opened in browser |
-| 8 | HTML Report Summary | Email confirmation and report attachments |
+| 1 | Folder structure | Complete project structure with assets |
+| 2 | GUI window | Main interface to select and monitor systems |
+| 3 | Email dialog | Prompt for recipient & SMTP email configuration |
+| 4 | Script execution | PowerShell console running background jobs |
+| 5 | Logs folder | Output folder with timestamped reports |
+| 6 | Technical report | Full metric view for IT administrators |
+| 7 | User-friendly report | Simplified dashboard for end users |
+| 8 | Email summary | Confirmation showing generated reports |
 
 ---
 
-<a name="planned-enhancements"></a>
+<a id="planned-enhancements"></a>
 ## 🧩 Planned Enhancements  
 
-- Add **CPU trend charts** (HTML graph visualization)  
-- Integrate **remote WMI queries** for deeper hardware stats  
-- Optional **Teams/Slack notifications** after each run  
-- Scheduled monitoring via **Task Scheduler** integration  
+- 📈 Add **CPU and memory trend graphs** in HTML reports  
+- 🔍 Integrate **WMI queries** for real-time hardware metrics  
+- 💬 Add **Microsoft Teams & Slack** webhook notifications  
+- ⏰ Enable **Windows Task Scheduler** for recurring automated scans  
+- ☁️ Add **Azure Blob Storage integration** for report backups  
 
 ---
 
-<a name="developer"></a>
+<a id="developer"></a>
 ## 👨‍💻 Developer  
 
 **Moustafa Obari**  
-Software Engineer | Cloud & Automation Enthusiast  
+IT Support Specialist • PowerShell Automation • M365/Entra/Intune  
+📍 Toronto, Canada 🇨🇦  
 
-🔗 [GitHub](https://github.com/MoustafaObari)  
-🔗 [LinkedIn](https://www.linkedin.com/in/moustafaobari)
+🔗 [GitHub](https://github.com/MoustafaObari) | [LinkedIn](https://linkedin.com/in/moustafaobari)  
+📧 [moustafaobari@gmail.com](mailto:moustafaobari@gmail.com)
 
 ---
 
-> 💡 *“Transforming IT monitoring into seamless automation — delivering clarity, insight, and precision with every report.”*
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=MoustafaObari&label=Profile%20Views&color=0078D4&style=flat-square" alt="Profile Views Counter"/>
+</p>
 
-[⬆ Back to Top](#top)
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6F61,100:0078D4&height=120&section=footer&text=💡%20Transforming%20system%20monitoring%20into%20clarity%2C%20insight%2C%20and%20precision.&fontSize=16&fontColor=ffffff&animation=fadeIn" alt="footer banner"/>
+</p>
 
+<p align="center">
+  <a href="#top">⬆ Back to Top</a>
+</p>
