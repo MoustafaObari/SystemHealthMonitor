@@ -27,15 +27,17 @@
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/badge/PowerShell-0078D4?style=for-the-badge&logo=powershell&logoColor=white" title="PowerShell Automation">
-  <img src="https://img.shields.io/badge/HTML%20Report-FF6F61?style=for-the-badge&logo=html5&logoColor=white" title="HTML Report Generator">
-  <img src="https://img.shields.io/badge/GUI-Windows%20Forms-blue?style=for-the-badge&logo=windows&logoColor=white" title="Windows Forms GUI">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" title="MIT License"></a>
+  <img src="https://img.shields.io/badge/PowerShell-0078D4?style=for-the-badge&logo=powershell&logoColor=white">
+  <img src="https://img.shields.io/badge/HTML%20Report-FF6F61?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/GUI-Windows%20Forms-blue?style=for-the-badge&logo=windows&logoColor=white">
+  <img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge">
 </p>
 
 ---
 
 ## 🧠 Overview  
+
+**Built for IT admins and MSPs to automate system diagnostics and deliver proactive maintenance reports.**
 
 **System Health Monitor** is a professional PowerShell-based automation toolkit that performs deep system diagnostics and generates clean HTML reports — perfect for IT Support, MSPs, and DevOps professionals.
 
@@ -91,11 +93,13 @@ cd SystemHealthMonitor
 Edit the **config.json** file with your SMTP credentials:
 
 {
-  "smtpServer": "smtp.gmail.com",
-  "smtpPort": 587,
-  "smtpUser": "example@gmail.com",
-  "smtpPass": "yourpassword",
-  "from": "example@gmail.com"
+"smtpServer": "smtp.gmail.com",
+"smtpPort": 587,
+"smtpUser": "example@gmail.com
+",
+"smtpPass": "yourpassword",
+"from": "example@gmail.com
+"
 }
 
 💡 Tip: For Gmail users, enable “App Passwords” for secure SMTP access.
@@ -194,7 +198,11 @@ IT Support Specialist • PowerShell Automation • M365/Entra/Intune
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6F61,100:0078D4&height=120&section=footer&text=💡%20Transforming%20system%20monitoring%20into%20clarity%2C%20insight%2C%20and%20precision.&fontSize=16&fontColor=ffffff&animation=fadeIn" alt="footer banner"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6F61,100:0078D4&height=120&section=footer&text=💡%20Turning%20IT%20challenges%20into%20automation%20that%20saves%20time%20and%20improves%20user%20experience.&fontSize=16&fontColor=ffffff&animation=fadeIn" alt="footer banner"/>
+</p>
+
+<p align="center">
+  © 2025 Moustafa Obari — crafted with 💙 PowerShell, Markdown, and strong coffee.
 </p>
 
 <p align="center">
