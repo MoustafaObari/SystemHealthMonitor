@@ -68,7 +68,7 @@ Reports are saved locally and can be securely sent via email — transforming tr
 ✅ Portable `.exe` packaging for quick use without scripts  
 
 ---
-<a id="Tech Stack"></a>
+<a id="tech-stack"></a>
 ## 💻 Tech Stack  
 
 | Layer | Technology |
@@ -81,7 +81,7 @@ Reports are saved locally and can be securely sent via email — transforming tr
 | **Packaging** | PS2EXE for portable deployment |
 
 ---
-<a id="Getting Started"></a>
+<a id="getting-started"></a>
 
 ## ⚙️ Getting Started  
 
