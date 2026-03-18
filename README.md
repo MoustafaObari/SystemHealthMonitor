@@ -39,7 +39,7 @@
 </p>
 
 ---
-
+<a id="Overview"></a>
 ## 🧠 Overview  
 
 **Built for IT admins and MSPs to automate system diagnostics and deliver proactive maintenance reports.**
@@ -57,7 +57,7 @@ It automatically collects and analyzes:
 Reports are saved locally and can be securely sent via email — transforming traditional manual checks into **automated insights**.
 
 ---
-
+<a id="Features"></a>
 ## ✨ Features  
 
 ✅ Parallel health checks for multiple endpoints (local & remote via WinRM)  
@@ -68,7 +68,7 @@ Reports are saved locally and can be securely sent via email — transforming tr
 ✅ Portable `.exe` packaging for quick use without scripts  
 
 ---
-
+<a id="Teck Stack"></a>
 ## 💻 Tech Stack  
 
 | Layer | Technology |
